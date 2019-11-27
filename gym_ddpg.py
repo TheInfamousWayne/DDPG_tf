@@ -31,7 +31,7 @@ def main():
                 break
 
         # Testing:
-        if episode % 20 == 0 and episode > 20:
+        if episode % 20 == 0 and episode > 0:
             print("# # # # TEST # # # #")
             total_reward = 0
             for i in xrange(TEST):
@@ -48,7 +48,7 @@ def main():
             print("# # # # # # # # # # #")
 
         # Saving the model
-        if episode % 20 == 0 and episode > 20:
+        if episode % 20 == 0 and episode > 0:
             agent.save(episode)
 
     # env.monitor.close()

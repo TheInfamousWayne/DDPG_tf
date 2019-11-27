@@ -1,6 +1,2 @@
-model_checkpoint_path: "actor-network-720"
-all_model_checkpoint_paths: "actor-network-640"
-all_model_checkpoint_paths: "actor-network-660"
-all_model_checkpoint_paths: "actor-network-680"
-all_model_checkpoint_paths: "actor-network-700"
-all_model_checkpoint_paths: "actor-network-720"
+model_checkpoint_path: "actor-network-20"
+all_model_checkpoint_paths: "actor-network-20"
